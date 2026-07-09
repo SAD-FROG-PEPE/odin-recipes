@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: rgb(36, 25, 34);
+    font-family: 'Brush Script MT', cursive;
+}
+
+body {
+    background-color: rgb(255, 222, 247);
+}
+
+h1, h2 {
+    padding: 10px;
+    background-color: rgb(250, 89, 196);
+}
+
+img, p {
+    margin: 10px;
+}
+
+ul, ol {
+    padding: 10px 30px;
+    margin: 10px 0px;
+    background-color: rgb(240, 146, 209);
+}
+
+li {
+    padding: 10px 20px;
+}
+
+li::marker {
+    content: "\1F338 ";
+}
+
+a {
+    font-size: 1.5em;
+}
